@@ -235,7 +235,7 @@ GElinear <-  function(x,w,y,lambda,geshu,kesai,start,
   r_2_opt <- (sum((yanzhou-mean(yanzhou))^2)-sum(residual^2))/sum((yanzhou-mean(yanzhou))^2);r_2_opt#################
   
   
-  
+ 
   ###############################################################################################结果呈现
   jieguo_best <- t(consequence[weizhi_index[1],]);jieguo_best###################################最优信息汇总
   jieguo_best <- rbind(jieguo_best,r_2_ols,r_2_ols_empty,r_2_opt,miu,sigma);jieguo_best
@@ -278,7 +278,6 @@ GElinear <-  function(x,w,y,lambda,geshu,kesai,start,
 #rangesnp <- c(9:33)
 #range_snp<-c(1:length(rangesnp));range_snp#25个snp,循环器
 #d <- 5;
-
 
 
 ################################################################################################## R方计算];b1
