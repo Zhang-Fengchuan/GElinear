@@ -1,14 +1,10 @@
-
-
-
 #----------------------------------------------------------------------------------------------------------------------------------------------
 #-------------------Gene and environment interaction linear regression ------------------------------------------------------------------------
 #----------------------------------------------------------------------------------------------------------------------------------------------
 GElinear <-  function(x,w,y,lambda,geshu,kesai,start,
                       principle,catagory,response_variable,
                       site,leftpart,left,right,yinzi_left,
-                      yinzi_right,eps1,eps2,eps3,max_iter1,max_iter2){
-  
+                      yinzi_right,eps1,eps2,eps3,max_iter1,max_iter2){  
   ## ------------------------------------------------------------------------------------------------------------------------------------------
   ## The name of the function: GElinear
   ## ------------------------------------------------------------------------------------------------------------------------------------------
@@ -258,7 +254,7 @@ GElinear <-  function(x,w,y,lambda,geshu,kesai,start,
   
   ###############################################################################################图像展示
   for (i in c(1:(length(range_snp)*d))){
-    if(i==1){
+    if(i==1){cc
       biaohao <- paste('consequence$',c[7+i],sep='');biaohao
       eval(biaohao)
       x_huatu <- as.list.data.frame(consequence$lamda);x_huatu
