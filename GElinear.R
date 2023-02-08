@@ -279,32 +279,6 @@ GElinear <-  function(x,w,y,lambda,geshu,kesai,start,
   return(res)
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 #rangesnp <- c(9:33)
 #range_snp<-c(1:length(rangesnp));range_snp#25个snp,循环器
 #d <- 5;
@@ -314,6 +288,3 @@ GElinear <-  function(x,w,y,lambda,geshu,kesai,start,
 ################################################################################################## R方计算];b1
 #residual <- (yanzhou-x%*%as.matrix(a1)-w%*%as.matrix(b1));residual
 #r_2 <- (sum((yanzhou-mean(yanzhou))^2)-sum(residual^2))/sum((yanzhou-mean(yanzhou))^2);r_2
-
-
-
