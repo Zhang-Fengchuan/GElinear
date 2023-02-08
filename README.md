@@ -7,4 +7,4 @@ qujian.R用于计算调优参数取值范围的函数。
 yuchuli.R用于处理excel格式的基因环境数据。
 GE_linear是整体的联合分析模型，给定参数条件下可选择最优回归系数。
 联合模型BIC主页面为调用GE_linear进行具体分析的页面。
-data_snp.xlsx和middle_school.xlsx是基因环境数据
+data_snp.xlsx和middle_school.xlsx是基因环境数据。
